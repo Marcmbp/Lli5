@@ -13,8 +13,8 @@ public class BaseConnectExample {
             Class.forName("org.hsqldb.jdbc.JDBCDriver");
             // Estableix la connexió a la base de dades de Base
             String url = "jdbc:hsqldb:file:/home/tolo/Insync/tcatala@iedib.net/Google Drive/_iedib/2223/ptd/lliuraments/ava2/lli6/bd/editorial.odb";
-            String user = "usuari";
-            String password = "contrasenya";
+            String user = "tolo";
+            String password = "tolo";
             //conn = DriverManager.getConnection(url, user, password);
             conn = DriverManager.getConnection(url);
             // Executa una consulta SQL
